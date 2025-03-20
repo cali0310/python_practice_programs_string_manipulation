@@ -2,3 +2,7 @@
 # input fullname in incorrect casing
 # use swapcase to reverse case
 # print fullname
+
+fullname = str(input("Enter your fullname: "))
+fullname = fullname.swapcase()
+print(fullname)
