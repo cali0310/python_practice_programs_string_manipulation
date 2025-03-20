@@ -2,3 +2,7 @@
 # input name in incorrect casing
 # set name in pascal case 
 # print name
+
+fullname = str(input("Enter your fullname in incorrect casing: ").title())
+pascal_case = fullname.replace(" ", "")
+print(pascal_case)
